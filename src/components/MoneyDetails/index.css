@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.money-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .money-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ecfccb;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #84cc16;
+  min-height: 10vh;
+  min-width: 15vw;
+
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.balance-image {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.balance {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #7e858e;
+}
+
+.detail {
+  font-family: Roboto;
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #7e858e;
+}
+
+.balance-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.income-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #cffafe;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #06b6d4;
+  min-height: 10vh;
+  min-width: 15vw;
+  margin-right: 58px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.expense-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ede9fe;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #7c3aed;
+  min-height: 10vh;
+  min-width: 15vw;
+  margin-right: 58px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .income-container {
+    width: 100%;
+  }
+  .balance-container {
+    width: 100%;
+  }
+  .expense-container {
+    width: 100%;
+  }
+}

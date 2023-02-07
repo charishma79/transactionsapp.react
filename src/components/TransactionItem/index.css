@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.items-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .items-list {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.text {
+  margin-right: 103px;
+  color: #334155;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.delete-icon {
+  height: 25px;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
